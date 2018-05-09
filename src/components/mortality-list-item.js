@@ -10,8 +10,6 @@ const MortalityListItem = ({mortality}) => {
     const formatedDataMale = formatMortalityData(mortality.male)
     const formatedDataFemale = formatMortalityData(mortality.female)
 
-    console.log(formatedDataFemale)
-    console.log(formatedDataMale)
     return (
         <tr>
             <td><Flag country={mortality.country} className="flag_medium"/></td>
